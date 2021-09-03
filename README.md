@@ -35,9 +35,80 @@ python compile_cmm.py [filename]
 
 ## Features
 
+> Sample cmm files are contained in `examples` directory.
+
 - Simple mathematical calculations and operators: addition, subtraction,
   multiplication, division, and, or.
 - Conditional statement: if - else.
 - Loop: while loop.
 
-> Sample cmm files are contained in `examples` directory.
+### Expressions
+
+- Declare and return varibles/values.
+
+```
+x = 1;
+return 1;
+```
+
+```
+return (1 + 2) - 3 * 4 / 2;
+
+```
+
+```
+a = 1 + 2;
+b = a * 3;
+c = (b + 1) / 2 + a;
+return (c - 1);
+```
+
+- If-else statement
+
+```
+a = 5;
+if (a < 10)
+{
+  b = 1;
+}
+else
+{
+  b = 2;
+}
+
+return b;
+```
+
+```
+
+if ((1 < 2) && ((5 < 8) || (2 < 1)))
+{
+  if ((2 < 1) && (0 <= 1))
+  {
+    b = 1;
+  }
+  else
+  {
+    b = 2;
+  }
+}
+else
+{
+  b = 3;
+}
+return b;
+
+```
+
+- While loop
+
+```
+n = 5;
+fact = 1;
+while (n >= 1)
+{
+  fact = fact * n;
+  n = n - 1;
+}
+return fact;
+```
