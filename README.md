@@ -63,6 +63,8 @@ c = (b + 1) / 2 + a;
 return (c - 1);
 ```
 
+### Conditional statement
+
 - If-else statement
 
 ```
@@ -99,6 +101,8 @@ else
 return b;
 
 ```
+
+### Loop
 
 - While loop
 
