@@ -84,4 +84,4 @@ let rec optimize (c: code) =
                 else (Copy (v, ANum n))::(optimize_rec t)
         | h::t -> h::(optimize_rec t)
     in
-    fix optimize_rec c in
+    fix optimize_rec c
