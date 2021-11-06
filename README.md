@@ -21,7 +21,7 @@ with .tac at the end)
 ./cmm [filename]
 ```
 
-- To run compiled file (.tac file)
+To run compiled file (.tac file)
 
 ```bash
 ./tac [filename]
