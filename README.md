@@ -4,18 +4,18 @@ A compiler written in Ocaml for programming language C-- (C minus minus)
 
 ## Requirements
 
-- Install Ocaml: [https://ocaml.org/learn/tutorials/up_and_running.html](https://ocaml.org/learn/tutorials/up_and_running.html).
+Install Ocaml: [https://ocaml.org/learn/tutorials/up_and_running.html](https://ocaml.org/learn/tutorials/up_and_running.html).
 
 ## Instructions
 
-- Generate Ocaml lexer and parser for compiler
+Generate Ocaml lexer and parser for compiler
 
 ```bash
 make cmm && make tac
 ```
 
-- To compile file (running this command will create new file with the same name
-  with .tac at the end)
+To compile file (running this command will create new file with the same name
+with .tac at the end)
 
 ```bash
 ./cmm [filename]
@@ -27,7 +27,7 @@ make cmm && make tac
 ./tac [filename]
 ```
 
-- You can also use this command to compile and run file at the same time
+You can also use this command to compile and run file at the same time
 
 ```bash
 python compile_cmm.py [filename]
@@ -44,7 +44,7 @@ python compile_cmm.py [filename]
 
 ### Expressions
 
-- Declare and return varibles/values.
+Declare and return varibles/values.
 
 ```
 x = 1;
@@ -65,7 +65,7 @@ return (c - 1);
 
 ### Conditional statement
 
-- If-else statement
+If-else statement
 
 ```
 a = 5;
@@ -104,7 +104,7 @@ return b;
 
 ### Loop
 
-- While loop
+While loop
 
 ```
 n = 5;
